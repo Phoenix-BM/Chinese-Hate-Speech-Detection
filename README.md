@@ -1,4 +1,4 @@
-# CCL2025-Task10: Span-level Target-Aware Toxicity Extraction
+# Span-level Target-Aware Toxicity Extraction
 
 ![Task](https://img.shields.io/badge/Task-Hate_Speech_Detection-red) ![Language](https://img.shields.io/badge/Language-Chinese-blue)
 
