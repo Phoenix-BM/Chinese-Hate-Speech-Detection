@@ -1,0 +1,302 @@
+[
+  {
+    "id": 5648,
+    "content": "只要是和歪果仁上过的，看都不会看一眼，脏的要死，还怕唉死病。。。",
+    "prediction": "歪果仁 | 看都不会看一眼 | Racism | hate [END]",
+    "ground_truth": "和歪果仁上过的 | 脏的要死，还怕唉死病 | Racism, others | hate [END]"
+  },
+  {
+    "id": 4262,
+    "content": "不好意思，我父母恩爱，身边也没有一个亲戚朋友和黑人有染。你这么生气难道你继父是黑人🤔",
+    "prediction": "黑人 | 和黑人有染 | Racism | hate [END]",
+    "ground_truth": "你 | 这么生气难道你继父是黑人 | Racism, others | hate [END]"
+  },
+  {
+    "id": 6486,
+    "content": "艾呀，梅事的，疣什么大不了的，中奖几率为淋。",
+    "prediction": "艾呀，梅事的 | 疣什么大不了的 | non-hate | non-hate [END]",
+    "ground_truth": "NULL | 艾呀，梅事的，疣什么大不了的，中奖几率为淋。 | others | hate [END]"
+  },
+  {
+    "id": 5707,
+    "content": "你要看概率，黑人百分之三十以上的艾滋病，套套放不住，国内万分之几，你要活腻歪了，你上，得了后你就知道生活了",
+    "prediction": "黑人 | 百分之三十以上的艾滋病 | Racism | hate [END]",
+    "ground_truth": "黑人 | 百分之三十以上的艾滋病 | Racism, others | hate [END]"
+  },
+  {
+    "id": 2999,
+    "content": "王宝强没艾滋病，没有要你命，还有很多钱，人家目的明确，遇到贵人，恰逢机遇，观众喜欢。而且与合作方是合作共赢，我请问你，一没落着钱，还得致命的病，图一时爽?上哪不能爽，拿命去爽?",
+    "prediction": "王宝强 | 没艾滋病 | non-hate | non-hate [END]",
+    "ground_truth": "你 | 一没落着钱，还得致命的病，图一时爽? | others | hate [END]"
+  },
+  {
+    "id": 5424,
+    "content": "这个词一样，是从变态大本营民主党传出来的，因为他们骨子里其实是法西斯反对的是共产主义，自然要污名化同志这个词",
+    "prediction": "同志 | 是 | hate | LGBTQ",
+    "ground_truth": "变态大本营民主党 | 法西斯 | LGBTQ, others | hate [END]"
+  },
+  {
+    "id": 3365,
+    "content": "八成以上男同骗婚，九成骗婚者家暴，一成配偶被传染性病。也许很多反感是这么来的",
+    "prediction": "男同 | 骗婚 | Sexism | hate [SEP]",
+    "ground_truth": "男同 | 骗婚 | LGBTQ | hate [SEP] 骗婚者 | 家暴 | others | hate [END]"
+  },
+  {
+    "id": 754,
+    "content": "现在有汉奸专门带女孩风向，是个团队，目的就是让中国民族矛盾激化",
+    "prediction": "汉奸 | 专门带女孩风向 | Racism | hate [END]",
+    "ground_truth": "汉奸 | 专门带女孩风向 | others | hate [END]"
+  },
+  {
+    "id": 5394,
+    "content": "我感觉西方的教会拒绝甚至诅咒同性恋是对他们信仰的维护。我也不容我的信仰被玷污。当然，西方炼铜的，该怎么死怎么死。在我的生活中，只要txl不干扰他人并强迫接受，那可以理解。当然，不诅咒已经是最大的克制了。不祝福，不喜欢。",
+    "prediction": "西方的教会 | 拒绝甚至诅咒同性恋 | LGBTQ | hate [SEP]",
+    "ground_truth": "西方的教会 | 拒绝甚至诅咒同性恋 | LGBTQ | hate [SEP] 西方炼铜的 | 该怎么死怎么死 | Region, others | hate [SEP] txl | 不诅咒已经是最大的克制了 | LGBTQ | hate [END]"
+  },
+  {
+    "id": 6155,
+    "content": "有趣啊，和没道德的不用讲道德是吧，和我们讲什么道德？我学历不高，但知道平权本身是道德高地，被你学历歧视给拉到道德洼地对不对啊",
+    "prediction": "平权本身是道德高地 | 被你学历歧视给拉到道德洼地 | Sexism | hate [END]",
+    "ground_truth": "学历歧视 | 道德洼地 | others | hate [END]"
+  },
+  {
+    "id": 2080,
+    "content": "骗婚gay不能接受",
+    "prediction": "骗婚gay | 不能接受 | LGBTQ | hate [END]",
+    "ground_truth": "骗婚gay | 不能接受 | LGBTQ, others | hate [END]"
+  },
+  {
+    "id": 2777,
+    "content": "传播艾滋，这隐患够大吧！在国内留下一堆串串，这影响够恶劣吧！",
+    "prediction": "传播艾滋 | 这隐患够大吧 | LGBTQ | hate [END]",
+    "ground_truth": "传播艾滋 | 这隐患够大吧！ | Racism, others | hate [SEP] 一堆串串 | 这影响够恶劣吧！ | Racism | hate [END]"
+  },
+  {
+    "id": 7417,
+    "content": "艾滋病也一直和异性恋挂着钩呢",
+    "prediction": "艾滋病 | 和异性恋挂着钩 | LGBTQ | hate [END]",
+    "ground_truth": "异性恋 | 艾滋病一直和异性恋挂着钩呢 | others | hate [END]"
+  },
+  {
+    "id": 3567,
+    "content": "啊 虽然这种人确实很讨厌 但是小兄弟你为啥在我的评论下回复这个⁉",
+    "prediction": "小兄弟 | 为啥在我的评论下回复这个 | non-hate | non-hate [END]",
+    "ground_truth": "这种人 | 讨厌 | others | hate [SEP] 小兄弟 | 你为啥在我的评论下回复这个 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 5333,
+    "content": "也就汉族人不能多生，其他少数民族一样有多生几个的特权。近几年说一千万以上的少数民族跟汉族一样了，结果二胎三胎又放开了。说白了，计划生育就是不让汉族生孩子。",
+    "prediction": "汉族人 | 不能多生 | Sexism | hate [SEP] 其他少数民族 | 有多生几个的特权 | non-hate | non-hate [SEP]",
+    "ground_truth": "计划生育 | 不让汉族生孩子 | others | hate [END]"
+  },
+  {
+    "id": 6472,
+    "content": "HIV群体十之八九都是基佬。",
+    "prediction": "HIV群体 | 基佬 | LGBTQ | hate [END]",
+    "ground_truth": "HIV群体 | 十之八九都是基佬 | LGBTQ, others | hate [END]"
+  },
+  {
+    "id": 3529,
+    "content": "哈哈估计自身条件非常烂只能靠出卖同性获得幕刃的关注了",
+    "prediction": "哈哈 | 自身条件非常烂只能靠出卖同性获得幕刃的关注了 | LGBTQ | hate [END]",
+    "ground_truth": "NULL | 自身条件非常烂只能靠出卖同性获得幕刃的关注了 | others | hate [END]"
+  },
+  {
+    "id": 6806,
+    "content": "办的是学校，还是办的妓院",
+    "prediction": "学校 | 办的妓院 | Sexism | hate [END]",
+    "ground_truth": "学校 | 妓院 | others | hate [END]"
+  },
+  {
+    "id": 5002,
+    "content": "能不能去微博和豆瓣打啊老哥们，把这毒瘤除了行不行",
+    "prediction": "微博 | 把这毒瘤除了 | non-hate | non-hate [END]",
+    "ground_truth": "老哥们 | 把这毒瘤除了行不行 | others | hate [END]"
+  },
+  {
+    "id": 1352,
+    "content": "知乎一直都是这样，管理员精神有问题",
+    "prediction": "知乎 | 管理员精神有问题 | non-hate | non-hate [END]",
+    "ground_truth": "管理员 | 精神有问题 | others | hate [END]"
+  },
+  {
+    "id": 4847,
+    "content": "黑妞再漂亮也不敢上，万一有艾滋病怎么办？有个黑人男朋友的女生要知道艾滋病潜伏期很长的哟。",
+    "prediction": "黑妞 | 黑妞再漂亮也不敢上，万一有艾滋病怎么办？ | Sexism | hate [END]",
+    "ground_truth": "黑妞 | 再漂亮也不敢上，万一有艾滋病怎么办？ | Sexism, Racism, others | hate [SEP] 有个黑人男朋友的女生 | 艾滋病潜伏期很长 | Sexism, Racism, others | hate [END]"
+  },
+  {
+    "id": 5010,
+    "content": "很多时候不是恶性男同本身，而是恶心他们的是，这个圈子很乱，乱交得病的骚扰直男的占比很高，他们一定程度上吸引了社会注意力。然后他们被人家反感了又跳出来说歧视，然后普通人懒得和他们解释谁管你？！这种态度将错就错长此以往！",
+    "prediction": "恶性男同 | 恶心他们的是 | Sexism | hate [SEP] 恶性男同 | 一定程度上吸引了社会注意力 | Sexism | hate [SEP] 恶性男同 | 被人家反感了又跳出来说歧视 | Sexism | hate [SEP] 恶性男同 | 普通人懒得和他们解释谁管你 | Sexism | hate [END]",
+    "ground_truth": "男同 | 这个圈子很乱 | LGBTQ | hate [SEP] 乱交得病的骚扰直男的 | 占比很高 | LGBTQ, others | hate [END]"
+  },
+  {
+    "id": 5250,
+    "content": "欧盟在边境重兵看守。终于知道难民的危害",
+    "prediction": "欧盟 | 在边境重兵看守 | non-hate | non-hate [END]",
+    "ground_truth": "欧盟 | 边境重兵看守 | others | hate [SEP] 难民 | 危害 | others | hate [END]"
+  },
+  {
+    "id": 47,
+    "content": "你还未染艾身亡？你上药多久了？",
+    "prediction": "艾 | 你上药多久了 | LGBTQ | hate [END]",
+    "ground_truth": "你 | 未染艾身亡？ | others | hate [END]"
+  },
+  {
+    "id": 2100,
+    "content": "都是底层叫什么叫",
+    "prediction": "底层 | 都是底层叫叫 | non-hate | non-hate [END]",
+    "ground_truth": "NULL | 都是底层叫什么叫 | others | hate [END]"
+  },
+  {
+    "id": 6840,
+    "content": "这个人其实也未必就一定是成都人。只能说明当时他就在成都。不过他绝对当的起一句“狗日的”。行了，送朕进小黑屋吧🐶",
+    "prediction": "成都人 | 当的起一句“狗日的” | Racism | hate [END]",
+    "ground_truth": "这个人 | 狗日的 | others | hate [END]"
+  },
+  {
+    "id": 3585,
+    "content": "这种东西都能照做的不知道是没脊椎还是没脑子，不怕一万就怕万一，万一老婆是个仙女....",
+    "prediction": "这种东西 | 能照做的不知道是没脊椎还是没脑子 | non-hate | non-hate [END]",
+    "ground_truth": "这种东西都能照做的 | 不知道是没脊椎还是没脑子 | others | hate [SEP] 老婆 | 万一老婆是个仙女 | Sexism | hate [END]"
+  },
+  {
+    "id": 5157,
+    "content": "小孩子都知道远离默，那玩意有艾滋",
+    "prediction": "默 | 有艾滋 | LGBTQ | hate [END]",
+    "ground_truth": "默 | 那玩意有艾滋 | Racism, others | hate [END]"
+  },
+  {
+    "id": 4503,
+    "content": "就是你好好跟他说，他觉得你怕他。你收拾他一顿，他从此对你毕恭毕敬",
+    "prediction": "你 | 你收拾他一顿，他从此对你毕恭毕敬 | non-hate | non-hate [END]",
+    "ground_truth": "他 | 他从此对你毕恭毕敬 | others | hate [END]"
+  },
+  {
+    "id": 5788,
+    "content": "黑人的头上顶着三个大字：艾滋病其他乱搞的外国人也是垃圾渣滓，怎么了？",
+    "prediction": "黑人 | 垃圾渣滓 | Racism | hate [END]",
+    "ground_truth": "黑人 | 艾滋病 | Racism, others | hate [SEP] 其他乱搞的外国人 | 垃圾渣滓 | Racism, others | hate [END]"
+  },
+  {
+    "id": 79,
+    "content": "还得看咋陕西爷基佬死于艾",
+    "prediction": "陕西爷基佬 | 死于艾 | LGBTQ | hate [END]",
+    "ground_truth": "陕西爷基佬 | 死于艾 | LGBTQ, Region, others | hate [END]"
+  },
+  {
+    "id": 3670,
+    "content": "肖万 永远的美队！",
+    "prediction": "肖万 | 永远的美队！ | non-hate | non-hate [END]",
+    "ground_truth": "肖万 | 永远的美队 | others | hate [END]"
+  },
+  {
+    "id": 3104,
+    "content": "基佬看见💩洞就兴奋基佬不是在找屎眼就是在治病的路上",
+    "prediction": "基佬 | 基佬看见💩洞就兴奋 | LGBTQ | hate [END]",
+    "ground_truth": "基佬 | 看见💩洞就兴奋 | LGBTQ | hate [SEP] 基佬 | 不是在找屎眼就是在治病的路上 | LGBTQ, others | hate [END]"
+  },
+  {
+    "id": 4646,
+    "content": "貌似很多非洲国家半数人口有艾滋病，而且他们也不怕，因为寿命低，活不到艾滋病发就会因其他原因死了",
+    "prediction": "非洲国家 | 半数人口有艾滋病 | Racism | hate [END]",
+    "ground_truth": "很多非洲国家半数人口 | 半数人口有艾滋病 | Region, others | hate [END]"
+  },
+  {
+    "id": 7404,
+    "content": "得个艾滋病，人生绝对废掉了",
+    "prediction": "艾滋病 | 人生绝对废掉了 | Racism | hate [END]",
+    "ground_truth": "艾滋病 | 人生绝对废掉了 | others | hate [END]"
+  },
+  {
+    "id": 192,
+    "content": "哎，只可惜无良媒体竟然还用做他女朋友令人羡慕来形容",
+    "prediction": "哎，只可惜无良媒体竟然还用做他女朋友令人羡慕来形容",
+    "ground_truth": "无良媒体 | 竟然还用做他女朋友令人羡慕来形容 | others | hate [END]"
+  },
+  {
+    "id": 5865,
+    "content": "本质上就是被身份政治洗脑，转移矛盾的傀儡罢了，西方犹资的老套路了，不能只看到表象，要知道幕后黑手是谁",
+    "prediction": "西方犹资的老套路了 | 被身份政治洗脑，转移矛盾的傀儡 | Racism | hate [END]",
+    "ground_truth": "西方犹资 | 老套路 | Region, Racism, others | hate [END]"
+  },
+  {
+    "id": 499,
+    "content": "这就是艾情😎",
+    "prediction": "艾情😎 | 😎 | non-hate | non-hate [END]",
+    "ground_truth": "NULL | 艾情 | others | hate [END]"
+  },
+  {
+    "id": 1021,
+    "content": "守住就行，白左笑话吧是可以联合的",
+    "prediction": "白左 | 笑话吧是可以联合的 | non-hate | non-hate [END]",
+    "ground_truth": "白左笑话吧 | 是可以联合的 | Racism, others | hate [END]"
+  },
+  {
+    "id": 4265,
+    "content": "找黑人这么光荣，这么多好处你怕什么，还匿名，八成是想患上艾滋病后隐瞒别人，好找中国人接盘?也就是你一开始就为了想得到点刺激，不是奔着结婚去的?你可真利己主义",
+    "prediction": "黑人 | 找黑人这么光荣 | Sexism | hate [END]",
+    "ground_truth": "你 | 八成是想患上艾滋病后隐瞒别人，好找中国人接盘? | Sexism, Racism, others | hate [SEP] 你 | 利己主义 | others | hate [END]"
+  },
+  {
+    "id": 4591,
+    "content": "同性恋最恶心了，就和那些不让人吃狗肉的极端爱狗人士一样恶心！",
+    "prediction": "同性恋 | 最恶心了 | LGBTQ | hate [END]",
+    "ground_truth": "同性恋 | 最恶心 | LGBTQ | hate [SEP] 不让人吃狗肉的极端爱狗人士 | 恶心 | others | hate [END]"
+  },
+  {
+    "id": 629,
+    "content": "事实就是艾滋烂大街",
+    "prediction": "艾滋 | 烂大街 | LGBTQ | hate [END]",
+    "ground_truth": "艾滋 | 烂大街 | others | hate [END]"
+  },
+  {
+    "id": 4531,
+    "content": "我去，他们自己闻不到吗😅",
+    "prediction": "他们 | 闻不到 | non-hate | non-hate [END]",
+    "ground_truth": "他们 | 自己闻不到吗😅 | others | hate [END]"
+  },
+  {
+    "id": 5760,
+    "content": "因为后门脏恐艾",
+    "prediction": "后门 | 脏恐艾 | Racism | hate [END]",
+    "ground_truth": "艾 | 后门脏 | LGBTQ, others | hate [END]"
+  },
+  {
+    "id": 4280,
+    "content": "艾滋病你不怕，她等不到那天就会被艾滋病恁死",
+    "prediction": "艾滋病 | 你不怕 | LGBTQ | hate [END]",
+    "ground_truth": "她 | 等不到那天就会被艾滋病恁死 | others | hate [END]"
+  },
+  {
+    "id": 4692,
+    "content": "如果有恶熏的txl帅哥记得艾特我我来打击惹",
+    "prediction": "恶熏的txl帅哥 | 记得艾特我我来打击惹 | non-hate | non-hate [END]",
+    "ground_truth": "txl帅哥 | 恶熏的 | others | hate [END]"
+  },
+  {
+    "id": 5765,
+    "content": "没嘲讽没贬低更没夸张，张口屁股歪闭口叛国贼，爱国不是你打压少数人的借口。",
+    "prediction": "张口屁股歪闭口叛国贼 | 爱国不是你打压少数人的借口 | non-hate | non-hate [END]",
+    "ground_truth": "爱国 | 不是你打压少数人的借口 | others | hate [END]"
+  },
+  {
+    "id": 6403,
+    "content": "我们没有说胖，我们只是想说摄像头买小了，用13mm超广角镜头拍摄也没能拍全这位的月佥",
+    "prediction": "摄像头 | 买小了 | non-hate | non-hate [END]",
+    "ground_truth": "这位 | 用13mm超广角镜头拍摄也没能拍全月佥 | others | hate [END]"
+  },
+  {
+    "id": 5973,
+    "content": "全国1/3商品粮产地，航母、舰载机、战斗机、核潜艇、航空发动机生产基地，必须黑掉他，让他人口和人才不断外流，逐渐萎缩。看看最近毒教材，洗地安倍等等现象就明白了，某些势力亡我之心不死。",
+    "prediction": "全国1/3商品粮产地 | 他人口和人才不断外流，逐渐萎缩 | Racism | hate [END]",
+    "ground_truth": "某些势力 | 亡我之心不死 | others | hate [END]"
+  },
+  {
+    "id": 4842,
+    "content": "黑和同：艾滋病的高发群体，这一点高度相似",
+    "prediction": "黑和同：艾滋病的高发群体，这一点高度相似",
+    "ground_truth": "黑和同 | 艾滋病的高发群体 | LGBTQ, Racism, others | hate [END]"
+  }
+]

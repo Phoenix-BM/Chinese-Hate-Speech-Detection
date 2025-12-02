@@ -1,0 +1,62 @@
+[
+  {
+    "id": 977,
+    "content": "大家集火冲啊",
+    "prediction": "大家 | 集火冲 | non-hate | non-hate [END]",
+    "ground_truth": "大家 | 集火冲啊 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 7183,
+    "content": "什么时候被西方zzzq洗脑就是高知了🤣，思想前卫=lkd？🤣学历之类的不清楚，姣好面容这一点，我觉得自己也算阅片无数了，怀疑你没见过女人🤣",
+    "prediction": "姣好面容 | 嫣好面容 | Sexism | hate [END]",
+    "ground_truth": "被西方zzzq洗脑 | 什么时候被西方zzzq洗脑就是高知了🤣 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 4508,
+    "content": "男人冲过来，我一个滑铲从他身下滑过。并用刀子把他肚子划开。内脏掉一地。或者直接原地后仰，把手里的长棍尖头朝上抵住地面，男人飞扑直接落地戳死",
+    "prediction": "男人 | 冲过来 | non-hate | non-hate [SEP] 我 | 一个滑铲从他身下滑过 | non-hate | non-hate [SEP] 他 | 肚子划开 | non-hate | non-hate [SEP] 男人 | 飞扑直接落地戳死 | non-hate | non-hate [END]",
+    "ground_truth": "男人 | 用刀子把他肚子划开。内脏掉一地。 | Sexism | hate [SEP] 男人 | 飞扑直接落地戳死 | Sexism | hate [END]"
+  },
+  {
+    "id": 7694,
+    "content": "本来就是一帮没啥别的只能靠地域来包装自己优越感的傻*，网上输出暴论自我安慰图一乐罢了。",
+    "prediction": "地域包装自己优越感的傻* | 输出暴论自我安慰图一乐罢了 | Racism | hate [END]",
+    "ground_truth": "一帮没啥别的只能靠地域来包装自己优越感的傻* | 网上输出暴论自我安慰图一乐 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 442,
+    "content": "恋爱自由没毛病，嫁出去没人说啥。留国内再加几个混血，是对民族不负责任。别的种族我不说啥，任何国家黑人多了，都是犯罪和冲突的泥潭，无一例外。中国即使只有1%的人变成混血黑，那都是大问题。",
+    "prediction": "黑人 | 是犯罪和冲突的泥潭 | Racism | hate [SEP]",
+    "ground_truth": "黑人 | 任何国家黑人多了，都是犯罪和冲突的泥潭 | Racism | hate [SEP] 混血黑 | 中国即使只有1%的人变成混血黑，那都是大问题 | Racism | hate [END]"
+  },
+  {
+    "id": 3063,
+    "content": "这里面这两货虫类把它们野生动物生物物种形容成狗类这简直就是狗最大羞辱它们野生动物生物物种在严格科学研究定义与众多证明下给出答案它们野生动物生物物种是属于昆虫纲最低等卵体寄生虫。",
+    "prediction": "昆虫纲最低等卵体寄生虫 | 它们野生动物生物物种 | non-hate | non-hate [END]",
+    "ground_truth": "虫类 | 把它们野生动物生物物种形容成狗类这简直就是狗最大羞辱 | Racism | hate [SEP] 它们 | 生物物种是属于昆虫纲最低等卵体寄生虫 | Racism | hate [END]"
+  },
+  {
+    "id": 5837,
+    "content": "哈哈 我在乍得 这边小黑两瓶可乐就可以给你当一早上力工",
+    "prediction": "乍得 | 小黑两瓶可乐就可以给你当一早上力工 | Region | hate [END]",
+    "ground_truth": "小黑 | 两瓶可乐就可以给你当一早上力工 | Racism | hate [END]"
+  },
+  {
+    "id": 7370,
+    "content": "同性恋当然不是病啊.清除放射沾染，拿高压水雾往他身上冲一冲就掉了，而完全治理逆转录病毒，除了嘿嘿嘿嘿没有第二种选择.为了让某些猪队友不至于摇摆不定负加成，我非常非常赞成同性恋不算病",
+    "prediction": "同性恋 | 不算病 | non-hate | non-hate [END]",
+    "ground_truth": "同性恋 | 清除放射沾染，拿高压水雾往他身上冲一冲就掉了 | LGBTQ | hate [END]"
+  },
+  {
+    "id": 3364,
+    "content": "这可咋整。反对种族歧视的没有几个（至少我没看见几个）替受害的中国人说话的。倒是一帮替黑乐色洗白的。这是反对哪门子种族歧视？这不就是他们抨击的以貌取人吗？自己就是种族主义者，还逆向的。跟我这反对种族歧视，别跟我胡说了行么？",
+    "prediction": "黑乐色 | 黑乐色 | Racism | hate [SEP]",
+    "ground_truth": "黑乐色 | 替黑乐色洗白 | Racism | hate [SEP] 他们 | 种族主义者，还逆向的 | Racism | hate [END]"
+  },
+  {
+    "id": 5055,
+    "content": "_xDC36__xD83D_zz有空发这个不如去舔你默🐶的嘿d",
+    "prediction": "_xDC36__xD83D_zz | 默🐶的嘿d | non-hate | non-hate [END]",
+    "ground_truth": "默🐶 | 去舔你默🐶的嘿d | Racism | hate [END]"
+  }
+]

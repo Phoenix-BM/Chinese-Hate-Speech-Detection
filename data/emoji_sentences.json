@@ -1,0 +1,656 @@
+[
+  {
+    "id": 5063,
+    "content": "实话讲玩网游的时候连麦 最怕碰到江浙的，我说话有点口音，他们就学我说话😅，跟他们说还不承认自己学了... 总之就是特别有优越感，也不知道哪里来的. 当然，不是全部人，有那么一小部分因为江浙一带的经济环境有了优越感，但是跟他们没太大关系啊😲",
+    "prediction": "江浙一带的经济环境 | 有了优越感 | Region | hate [END]",
+    "ground_truth": "江浙的 | 特别有优越感 | Region | hate [END]"
+  },
+  {
+    "id": 2508,
+    "content": "小哥哥居然是。。。伤心了。😔",
+    "prediction": "小哥哥 | 伤心了。 | non-hate | non-hate [END]",
+    "ground_truth": "小哥哥 | 伤心了。😔 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 1778,
+    "content": "我靠真能下得去手啊，我去主校区的时候也见过几个又黑又肥又丑看不清脸，可能是我的学校太好了女生都挺保守的，没听说也没看见哪个女生和黑人谈恋爱😅",
+    "prediction": "黑人 | 又黑又肥又丑看不清脸 | Racism | hate [END]",
+    "ground_truth": "黑人 | 没听说也没看见哪个女生和黑人谈恋爱😅 | Sexism, Racism | hate [END]"
+  },
+  {
+    "id": 1216,
+    "content": "最多外来人口 有多少是外国人🤔上海人对黑大人白大人的忍让成都 和对国人歧视侮辱程度真就是天差地别",
+    "prediction": "最多外来人口 | 有多少是外国人 | non-hate | non-hate [SEP]",
+    "ground_truth": "上海人 | 对黑大人白大人的忍让成都 和对国人歧视侮辱程度真就是天差地别 | Region, Racism | hate [END]"
+  },
+  {
+    "id": 6531,
+    "content": "白人也接受不了。😄",
+    "prediction": "白人 | 接受不了 | Racism | hate [END]",
+    "ground_truth": "白人 | 接受不了 | Racism | hate [END]"
+  },
+  {
+    "id": 5679,
+    "content": "逆向民族主义者😆😆😆",
+    "prediction": "逆向民族主义者 | 😆😆😆 | Racism | hate [END]",
+    "ground_truth": "逆向民族主义者 | 逆向民族主义者 | Racism | hate [END]"
+  },
+  {
+    "id": 4262,
+    "content": "不好意思，我父母恩爱，身边也没有一个亲戚朋友和黑人有染。你这么生气难道你继父是黑人🤔",
+    "prediction": "黑人 | 和黑人有染 | Racism | hate [END]",
+    "ground_truth": "你 | 这么生气难道你继父是黑人 | Racism, others | hate [END]"
+  },
+  {
+    "id": 2878,
+    "content": "畒🐶太多了，根本jb不过来，只能躲着",
+    "prediction": "畒🐶 | 太多了，根本jb不过来，只能躲着 | non-hate | non-hate [END]",
+    "ground_truth": "畒🐶 | 只能躲着 | Sexism | hate [END]"
+  },
+  {
+    "id": 1581,
+    "content": "本山西人真的不敢歧视外地人，感觉全国就我们山西是最穷的，要是没有煤，就彻底没有上桌子的权力了😅😅😅",
+    "prediction": "山西人 | 不敢歧视外地人 | non-hate | non-hate [END]",
+    "ground_truth": "山西 | 最穷的 | Region | hate [END]"
+  },
+  {
+    "id": 7543,
+    "content": "我无所谓，反正不想结婚🐶不过我讨厌黑，因为他们真的很没礼貌。",
+    "prediction": "黑 | 很没礼貌 | Racism | hate [END]",
+    "ground_truth": "黑 | 真的很没礼貌 | Racism | hate [END]"
+  },
+  {
+    "id": 5890,
+    "content": "美国驻成都领事馆，被关闭那天，果子狸就注销账号跑路了……什么成分就不用多说了🐶",
+    "prediction": "美国驻成都领事馆 | 被关闭那天，果子狸就注销账号跑路了…… | Region | hate [END]",
+    "ground_truth": "果子狸 | 注销账号跑路了 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 188,
+    "content": "吴施蒙了解一下，山东大学三陪一的异性学伴了解一下🐶",
+    "prediction": "山东大学三陪一的异性学伴 | 了解一下 | Sexism | hate [END]",
+    "ground_truth": "吴施蒙 | 了解一下 | Sexism, Racism | hate [SEP] 山东大学三陪一的异性学伴 | 了解一下🐶 | Sexism, Racism | hate [END]"
+  },
+  {
+    "id": 6685,
+    "content": "😭井盖好沉的，根本就不好偷啊😅就这一个黑了多少年了，河南的假和尚可比偷井盖的多多了",
+    "prediction": "井盖 | 好沉的，根本就不好偷啊 | non-hate | non-hate [END]",
+    "ground_truth": "河南 | 假和尚可比偷井盖的多多了 | Region | hate [END]"
+  },
+  {
+    "id": 5476,
+    "content": "其实我对男同怎么的还真没什么看法，我歧视的是在到处瞎叫唤男男的女生，她们没觉得自己很恶心吗？还好意思指责别人鄙视同性恋，都是她们整臭的🥺🥺🥺",
+    "prediction": "男同 | 没什么看法 | non-hate | non-hate [END]",
+    "ground_truth": "到处瞎叫唤男男的女生 | 恶心 | Sexism | hate [END]"
+  },
+  {
+    "id": 76,
+    "content": "说得对，我们没法分辨谁是烂裤裆，那只能摆烂或者先自己变成烂裤裆了😄",
+    "prediction": "烂裤裆 | 烂裤裆 | non-hate | non-hate [END]",
+    "ground_truth": "烂裤裆 | 我们没法分辨谁是烂裤裆，那只能摆烂或者先自己变成烂裤裆了😄 | Sexism | hate [END]"
+  },
+  {
+    "id": 7183,
+    "content": "什么时候被西方zzzq洗脑就是高知了🤣，思想前卫=lkd？🤣学历之类的不清楚，姣好面容这一点，我觉得自己也算阅片无数了，怀疑你没见过女人🤣",
+    "prediction": "姣好面容 | 嫣好面容 | Sexism | hate [END]",
+    "ground_truth": "被西方zzzq洗脑 | 什么时候被西方zzzq洗脑就是高知了🤣 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 3720,
+    "content": "有人问我为什么要为女性发声，我说，我只是不忍心看到她们被人伤害，仅此而已🤔女性确实会被黑人伤害，要么被强j，要么被轮j，要么被当成玩物。你所理解的这个伤害，不会是反对黑人和中国女性结婚，是对中国女性的伤害吧。你不忍心她们被伤害，就应该告诉她们，和黑人在一起，最后的结果大概率是什么，有多惨，抱着孩子找不着爹。去了黑人家当第四，第五个没地位的小老婆。",
+    "prediction": "中国女性 | 被黑人伤害 | Sexism | hate [SEP]",
+    "ground_truth": "黑人 | 女性确实会被黑人伤害 | Sexism, Racism | hate [END]"
+  },
+  {
+    "id": 1333,
+    "content": "中国内部的地域歧视，一切责任在美方😆😆😆",
+    "prediction": "中国内部的地域歧视 | 一切责任在美方 | Racism | hate [END]",
+    "ground_truth": "中国内部的地域歧视 | 一切责任在美方😆😆😆 | Region | hate [END]"
+  },
+  {
+    "id": 3534,
+    "content": "有三个豪爽的地方很特别，与众不同。可以黑别人，别人不能说它们。😆",
+    "prediction": "有三个豪爽的地方很特别 | 与众不同 | non-hate | non-hate [END]",
+    "ground_truth": "它们 | 可以黑别人，别人不能说它们 | Region | hate [END]"
+  },
+  {
+    "id": 2106,
+    "content": "之前跟四个同学去上海玩，等地铁的时候被一个老太太秀了一波优越感，不让我坐着她要坐，关键旁边还有一小排椅子是空的，地铁还有两分钟就到，我想算了吧，不跟老太太一般见识，我就去旁边坐了😅然后我到知乎上全面的说这件事，其中有一个环节是我的一个同学在等地铁的时候吃东西，然后有一个上海人评论，全面抨击我吃东西的同学，说他们上海人在进了闸机口就不会吃东西的，说我们没道德什么的只字不提上面那个老太太。（我们在南京都会吃，进地铁才不吃，南京的要求就是地铁内不能进食。)我们的确不了解上海的政策规定，关键是等地铁吃东西的人真的很多啊，PS有一天晚上我们在地铁里，还有一个优雅的上海女人在优雅的吃哈根达斯，我跟她对视了，她轻蔑的撇开了视线，她跟她老公一起说上海话聊天应该是上海人吧，而且看起来很上海，五十来岁。。反正那个评论的上海人又秀了一波优越感，他们上海人就不会吃东西，我们外地人开就没道德，老双标了。",
+    "prediction": "上海人 | 不会吃东西 | Region | hate [SEP]",
+    "ground_truth": "那个评论的上海人 | 老双标了 | Region | hate [END]"
+  },
+  {
+    "id": 2522,
+    "content": "真的有那么生气吗，我不信😆",
+    "prediction": "真的有那么生气吗 | 不信 | non-hate | non-hate [END]",
+    "ground_truth": "NULL | 真的有那么生气吗 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 5046,
+    "content": "你这样说让那些标榜找个外国对象倍有面的人还怎么装b😆",
+    "prediction": "你 | 找个外国对象倍有面 | Sexism | hate [END]",
+    "ground_truth": "标榜找个外国对象倍有面的人 | 装b😆 | Racism | hate [END]"
+  },
+  {
+    "id": 4757,
+    "content": "哪里都有好人坏人，两三千万出几个坏人很正常。然后作者说不喜欢天津以北的，一下讨厌了好几亿。嗯，你把信息简历发我，我给你推CNN去。🤭🤭🤭🤭",
+    "prediction": "天津以北的 | 一下讨厌了好几亿 | Region | hate [END]",
+    "ground_truth": "天津以北的 | 作者说不喜欢 | Region | hate [END]"
+  },
+  {
+    "id": 2785,
+    "content": "抖音上的某几个黑人，挺EX的，说实话，直播只连女的，也就算了，还拍视频连续剧：小黑寻花记😲",
+    "prediction": "黑人 | 挺EX的 | non-hate | non-hate [END]",
+    "ground_truth": "抖音上的某几个黑人 | EX | Racism | hate [SEP] 抖音上的某几个黑人 | 小黑寻花记😲 | Racism, Sexism | hate [END]"
+  },
+  {
+    "id": 5203,
+    "content": "🤣对了我只是尝试解释，至于我，我都不接受不理解不接触",
+    "prediction": "我 | 不接受不理解不接触 | non-hate | non-hate [END]",
+    "ground_truth": "我 | 不接受不理解不接触 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 6330,
+    "content": "🤣图片确实好笑",
+    "prediction": "图片 | 好笑 | non-hate | non-hate [END]",
+    "ground_truth": "图片 | 确实好笑 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 3729,
+    "content": "那既然有这么多优秀人才，黑人为主的国家为什么没有一个强国？😆",
+    "prediction": "那既然有这么多优秀人才，黑人为主的国家为什么没有一个强国？😆",
+    "ground_truth": "黑人 | 黑人为主的国家为什么没有一个强国 | Racism | hate [END]"
+  },
+  {
+    "id": 2626,
+    "content": "他不是江南人，绝对不是，江南人讲话口吻脾气秉性不是这样的。他是明显的假冒魔都人有种现象很有趣，就是低温人假冒京人某些人假冒魔都人尤其这些年，去魔都的人各地都有，比之前杂多了，不少人，您比如假名媛吧，某些柴火妞就是中专没毕业到魔都钓个老头过两月出门就说自己魔都人😅我真不相信他是上海人",
+    "prediction": "魔都人 | 某些人假冒魔都人 | non-hate | non-hate [END]",
+    "ground_truth": "低温人 | 假冒京人 | Region | hate [SEP] 某些人 | 假冒魔都人 | Region | hate [SEP] 某些柴火妞 | 中专没毕业到魔都钓个老头过两月出门就说自己魔都人 | Region | hate [END]"
+  },
+  {
+    "id": 8,
+    "content": "我中国人，你喜欢黑人麻烦你走😠😠😠",
+    "prediction": "中国人 | 你喜欢黑人 | Racism | hate [END]",
+    "ground_truth": "我 | 中国人 | non-hate | non-hate [SEP] 你 | 喜欢黑人麻烦你走😠😠😠 | Racism | hate [END]"
+  },
+  {
+    "id": 5100,
+    "content": "广东没有吧，我去广州他们刚开始以为我是新疆，之后我说我是黑龙江他们都夸我那边能看到雪然后厚道啥的，我对广东整体印象还是挺好的🍉",
+    "prediction": "广东 | 去广州他们刚开始以为我是新疆 | non-hate | non-hate [END]",
+    "ground_truth": "广东 | 整体印象还是挺好的🍉 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 4355,
+    "content": "她老公知道了，之后她的备注就是女表子了，极大可能离婚，然后亲戚朋友都来劝她老公大度🐶",
+    "prediction": "女表子 | 大度🐶 | Sexism | hate [END]",
+    "ground_truth": "她 | 女表子 | Sexism | hate [END]"
+  },
+  {
+    "id": 1723,
+    "content": "陕西人都这样的吗😅",
+    "prediction": "陕西人 | 这样的吗 | Region | hate [END]",
+    "ground_truth": "陕西人 | 都这样的吗😅 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 7151,
+    "content": "说得好像也好有道理。而且只要有钱吃药，HIV也不算什么绝症了😅",
+    "prediction": "HIV | 有钱吃药，HIV也不算什么绝症了 | non-hate | non-hate [END]",
+    "ground_truth": "HIV | 不算什么绝症了😅 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 5728,
+    "content": "天生的没办法，有些gay就是恶心，骚扰人，这纯纯没素质行为。但有些就干干净净，有干净的圈子和让人舒适的人品，让许多人愿意与他交朋友。再遇到这种骚扰人的你完全可以削他🤔，咱有理",
+    "prediction": "天生的 | 没办法 | LGBTQ | hate [SEP] 有些gay | 就恶心 | LGBTQ | hate [SEP] 有些 | 就干干净净 | LGBTQ | hate [SEP] 有些 | 有干净的圈子和让人舒适的人品 | LGBTQ | hate [SEP] 让许多人 | 愿意与他交朋友 | LGBTQ | hate [SEP] 再遇到这种骚扰人的你 | 完全可以削他 | LGBTQ | hate [SEP]",
+    "ground_truth": "gay | 恶心，骚扰人 | LGBTQ | hate [END]"
+  },
+  {
+    "id": 7492,
+    "content": "不知道你反驳的点在哪，答主也从没说过没有，只是一个小范围。你还要怎么样呢？一定要举各种例子来证明国女的肤浅🐛茧方能显现出你的优越感吗？说国女都爱黑，你们要假惺惺地说也不是全部人都这样，说不是全部人都这样，你们又要跳着脚宣扬周围各种事件。你们要怎么样呢？你们想要我们怎么说呢？",
+    "prediction": "国女 | 黑 | Racism | hate [SEP]",
+    "ground_truth": "国女 | 肤浅🐛茧 | Sexism, Racism | hate [SEP] 国女 | 爱黑 | Sexism, Racism | hate [END]"
+  },
+  {
+    "id": 7356,
+    "content": "没存在感是好事😅大连倒是有存在感可净是负面的",
+    "prediction": "大连 | 有存在感 | non-hate | non-hate [END]",
+    "ground_truth": "大连 | 净是负面的 | Region | hate [END]"
+  },
+  {
+    "id": 6659,
+    "content": "怎么看都是外地人歧视上海😓",
+    "prediction": "外地人 | 外地人歧视上海 | Region | hate [END]",
+    "ground_truth": "外地人 | 歧视上海 | Region | hate [END]"
+  },
+  {
+    "id": 3711,
+    "content": "图来了😆😆😆知乎竟然不让上传超过5M的GIF😅拍了好几次😅查看动图",
+    "prediction": "图来了 | 图来了 | non-hate | non-hate [END]",
+    "ground_truth": "知乎 | 不让上传超过5M的GIF😅 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 668,
+    "content": "好神奇啊。我们学校也有黑人，但大家都表示很害怕😅我周围都没见过和他们玩的好的，更别提谈婚论嫁了。",
+    "prediction": "黑人 | 大家表示很害怕 | Racism | hate [END]",
+    "ground_truth": "黑人 | 但大家都表示很害怕 | Racism | hate [END]"
+  },
+  {
+    "id": 4550,
+    "content": "是的，我一个福建的同学跟我说，他爸爸说安徽人都是小偷。我很生气的他说，对我就是小偷，别再跟我说话了。他一脸尴尬的道了歉🙁",
+    "prediction": "安徽人 | 都是小偷 | Racism | hate [SEP]",
+    "ground_truth": "他爸爸 | 说安徽人都是小偷 | Region | hate [END]"
+  },
+  {
+    "id": 1852,
+    "content": "哈哈🍉看过🍉男生真倒霉啊",
+    "prediction": "男生 | 真倒霉 | Sexism | hate [END]",
+    "ground_truth": "男生 | 真倒霉啊 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 20,
+    "content": "日本女人贤不贤惠我不太在乎，反正中国女人已经跟贤妻良母不沾边了。穆斯林女人贞不贞洁也不是我关心的，反正中国女人不太贞洁了。俄罗斯乌克兰女人漂不漂亮也就那么回事儿，反正中国女人已经靠着美颜、化妆变成世界第一了。非洲女人身材好不好我是没注意过，反正中国女人就算身材不好也是“仙女”。😆",
+    "prediction": "日本女人 | 不太在乎 | non-hate | non-hate [END]",
+    "ground_truth": "中国女人 | 跟贤妻良母不沾边了 | Sexism, Region | hate [SEP] 中国女人 | 靠着美颜、化妆变成世界第一了 | Sexism, Region | hate [SEP] 中国女人 | 不太贞洁了 | Sexism, Region | hate [SEP] 中国女人 | 就算身材不好，也是“仙女” | Sexism, Region | hate [END]"
+  },
+  {
+    "id": 6693,
+    "content": "😓我怎么没听说这个梗",
+    "prediction": "我 | 没听说这个梗 | non-hate | non-hate [END]",
+    "ground_truth": "我 | 没听说这个梗 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 1080,
+    "content": "为什么jiang学长要打码😑",
+    "prediction": "jiang学长 | 打码 | non-hate | non-hate [END]",
+    "ground_truth": "jiang学长 | 要打码 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 2265,
+    "content": "浩克傻东被歧视被人人喊打还得碰瓷一下东北😓",
+    "prediction": "浩克傻东 | 被歧视 | Racism | hate [END]",
+    "ground_truth": "浩克傻东 | 被歧视被人人喊打 | Region | hate [SEP] 东北 | 碰瓷一下东北😓 | Region | hate [END]"
+  },
+  {
+    "id": 5345,
+    "content": "害这个确实过分，没办法。之前在抖音看到一个黑人女子在中国读研秀她的宿舍。好家伙那宿舍那个豪华，厕所淋浴厨房沙发双人大床。敢问国内研究生谁能有这待遇😅",
+    "prediction": "黑人女子 | 在中国读研秀她的宿舍 | Racism | hate [END]",
+    "ground_truth": "黑人女子 | 国内研究生谁能有这待遇 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 904,
+    "content": "错，河南人多，反而犯罪率不是最高。数据可查，某些只有河南人口一半的省份，犯罪率高于河南😄",
+    "prediction": "河南人 | 犯罪率不是最高 | non-hate | non-hate [END]",
+    "ground_truth": "河南人 | 河南人多，反而犯罪率不是最高 | non-hate | non-hate [SEP] 某些只有河南人口一半的省份 | 犯罪率高于河南😄 | Region | hate [END]"
+  },
+  {
+    "id": 7511,
+    "content": "是你对号入座了吧😆",
+    "prediction": "你",
+    "ground_truth": "你 | 对号入座 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 431,
+    "content": "东莞很好啊😎",
+    "prediction": "东莞 | 好 | non-hate | non-hate [END]",
+    "ground_truth": "东莞 | 很好 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 5378,
+    "content": "不愧是金庸先生，思想先进👍️",
+    "prediction": "金庸先生 | 思想先进 | non-hate | non-hate [END]",
+    "ground_truth": "金庸先生 | 思想先进 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 2941,
+    "content": "杂交能避免让隐性劣质基因显性，反之。也能让优质基因隐藏。纯种相反。也就是说当你的血统够优秀。尽量要保持血统纯正是最优选择。如果你基因全是毛病。还是杂交吧。😅",
+    "prediction": "杂交 | 让隐性劣质基因显性 | non-hate | non-hate [END]",
+    "ground_truth": "你 | 如果你基因全是毛病。还是杂交吧。😅 | Racism | hate [END]"
+  },
+  {
+    "id": 1183,
+    "content": "西安，武汉，江苏人家之间都好着，就喜欢黑你河南是吧😄",
+    "prediction": "河南 | 喜欢黑你 | Region | hate [END]",
+    "ground_truth": "河南 | 就喜欢黑你河南是吧😄 | Region | hate [END]"
+  },
+  {
+    "id": 5825,
+    "content": "跟我一起唱左炸🐔右🍉吃完一起摘棉💐",
+    "prediction": "左炸🐔 | 吃完一起摘棉💐 | non-hate | non-hate [END]",
+    "ground_truth": "NULL | 左炸🐔右🍉吃完一起摘棉💐 | Racism | hate [END]"
+  },
+  {
+    "id": 7979,
+    "content": "这第一口就是宁咬的吧😆",
+    "prediction": "宁咬 | 啊 | non-hate | non-hate [END]",
+    "ground_truth": "宁 | 第一口就是宁咬的 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 6014,
+    "content": "在上海务工的安徽人很多，一般对安徽有地域黑，其他身份对安徽无感，谈不上黑。🤣",
+    "prediction": "安徽人 | 对安徽有地域黑 | Region | hate [END]",
+    "ground_truth": "上海务工的安徽人 | 对安徽有地域黑 | Region | hate [END]"
+  },
+  {
+    "id": 5190,
+    "content": "今年冬天会不会没暖气哈？！🤭",
+    "prediction": "今年冬天会不会没暖气哈？！🤭",
+    "ground_truth": "今年冬天 | 会不会没暖气哈？！🤭 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 6840,
+    "content": "这个人其实也未必就一定是成都人。只能说明当时他就在成都。不过他绝对当的起一句“狗日的”。行了，送朕进小黑屋吧🐶",
+    "prediction": "成都人 | 当的起一句“狗日的” | Racism | hate [END]",
+    "ground_truth": "这个人 | 狗日的 | others | hate [END]"
+  },
+  {
+    "id": 821,
+    "content": "安徽人在江浙经常被歧视，其他地区还好👍️",
+    "prediction": "安徽人 | 被歧视 | Racism | hate [END]",
+    "ground_truth": "安徽人 | 在江浙经常被歧视 | Region | hate [END]"
+  },
+  {
+    "id": 5150,
+    "content": "非我族类🤣！",
+    "prediction": "非我族类 | 非我族类 | Racism | hate [END]",
+    "ground_truth": "NULL | 非我族类🤣！ | Racism | hate [END]"
+  },
+  {
+    "id": 1907,
+    "content": "不是，我去过2次上海，真没遇到过😅",
+    "prediction": "上海 | 真没遇到过 | non-hate | non-hate [END]",
+    "ground_truth": "NULL | 我去过2次上海，真没遇到过😅 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 6020,
+    "content": "哈哈哈哈哈哈😂说的太对了，赞👍",
+    "prediction": "哈哈哈哈哈哈 | 哈哈哈 | non-hate | non-hate [END]",
+    "ground_truth": "NULL | 说的太对了 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 1866,
+    "content": "现在很多的视频啊啥的，都是用耽美作为噱头。好多未成年小朋友不是因为喜欢同性，还是因为受了信息互联网的影响，觉得潮流🙁",
+    "prediction": "现在 的 视频 | 用耽美 作为 虚假 | LGBTQ | hate [SEP]",
+    "ground_truth": "现在很多的视频啊啥的 | 都是用耽美作为噱头 | non-hate | non-hate [SEP] 好多未成年小朋友 | 不是因为喜欢同性，还是因为受了信息互联网的影响，觉得潮流🙁 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 7168,
+    "content": "本科在武汉读书，感觉武汉对河南人偏见还是比北方省份小的😅",
+    "prediction": "河南 | 偏见 | Region | hate [END]",
+    "ground_truth": "武汉 | 对河南人偏见还是比北方省份小的 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 7451,
+    "content": "我大学里认识的河南朋友，人都特别好，我觉得河南历史悠久，真心觉得河南挺好的，以后想去玩🍉",
+    "prediction": "河南 | 历史悠久 | non-hate | non-hate [END]",
+    "ground_truth": "河南朋友 | 人都特别好 | non-hate | non-hate [SEP] 河南 | 挺好的 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 1336,
+    "content": "十几年前我刚上网的时候网上东北的名声还行，最起码“东北曾经是发达地区只是现在衰落了”这种常识哪怕是再黑东北的人也不会否认，但是这几年不知道怎么了，可能是智能手机便宜了流量便宜了，很多地域黑居然张口就是东北是贫困山区一样的地方😓",
+    "prediction": "东北 | 是贫困山区一样的地方 | Region | hate [END]",
+    "ground_truth": "东北 | 贫困山区一样的地方😓 | Region | hate [END]"
+  },
+  {
+    "id": 266,
+    "content": "😄我一路人又不跟她上床，她又怎么知道我的尺寸然后跟她前任比。就是单纯歧视eg",
+    "prediction": "我一路人 | 不跟她上床 | Sexism | hate [END]",
+    "ground_truth": "eg | 单纯歧视eg | Sexism, Racism | hate [END]"
+  },
+  {
+    "id": 1752,
+    "content": "自己女儿如果交往黑人，那就要反思是不是自己没教好了👍️",
+    "prediction": "自己女儿 | 如果交往黑人，那就要反思是不是自己没教好了 | non-hate | non-hate [END]",
+    "ground_truth": "黑人 | 自己女儿如果交往黑人，那就要反思是不是自己没教好了👍️ | Sexism, Racism | hate [END]"
+  },
+  {
+    "id": 3991,
+    "content": "南方不被北方黑？你这句就挺地域黑的😓",
+    "prediction": "南方 | 不被北方黑 | Region | hate [END]",
+    "ground_truth": "南方 | 不被北方黑 | Region | hate [END]"
+  },
+  {
+    "id": 2348,
+    "content": "歧视别人就有被骂的可能，这是相互的啊。不过被骂就被骂就是，不影响我歧视同性恋🤣",
+    "prediction": "同性恋 | 被歧视 | hate | LGBTQ [END]",
+    "ground_truth": "同性恋 | 歧视 | LGBTQ | hate [END]"
+  },
+  {
+    "id": 4197,
+    "content": "这叫：师🐵长技以制🐵",
+    "prediction": "师长技以制",
+    "ground_truth": "🐵 | 师🐵长技以制🐵 | Racism | hate [END]"
+  },
+  {
+    "id": 2455,
+    "content": "楼主圈子太小，可以去南京或者广州，武汉或者成都酒吧一条街和大学附近看看，现实会告诉你答案。武汉女大学生被黑人感染艾滋病，自己百度一下，你就知道了。😅🤣😆🐶",
+    "prediction": "武汉女大学生 | 被黑人感染艾滋病 | Racism | hate [END]",
+    "ground_truth": "楼主 | 圈子太小 | non-hate | non-hate [SEP] 武汉女大学生 | 被黑人感染艾滋病 | Sexism, Racism | hate [END]"
+  },
+  {
+    "id": 6197,
+    "content": "感觉你的回答是最真实的，没人有这个闲功夫去批判😅",
+    "prediction": "感觉你的回答是最真实的，没人有这个闲功夫去批判",
+    "ground_truth": "你的回答 | 最真实 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 307,
+    "content": "那个福南啊🤣，其实正确发音不是福兰嘛",
+    "prediction": "福南 | 福兰 | non-hate | non-hate [END]",
+    "ground_truth": "福南 | 其实正确发音不是福兰嘛 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 7520,
+    "content": "可能是本人表达能力的水平十分有限，竟然让您产生这种曲解，真的不好意思😂",
+    "prediction": "本人 | 产生曲解 | non-hate | non-hate [END]",
+    "ground_truth": "本人表达能力 | 水平十分有限 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 6766,
+    "content": "我歧视有种族歧视的人和黑人🐶🐶",
+    "prediction": "种族歧视的人 | 有种族歧视的人 | Racism | hate [END]",
+    "ground_truth": "黑人 | 歧视 | Racism | hate [END]"
+  },
+  {
+    "id": 4822,
+    "content": "对啊江苏不只是看不起河南，看网上江苏人似乎都不是中国的地方了，他们就是高人一等，和其他省份的人根本不是一个阶层🤣",
+    "prediction": "江苏 | 不只是看不起河南，看网上江苏人似乎都不是中国的地方了，他们就是高人一等，和其他省份的人根本不是一个阶层 | Region | hate [END]",
+    "ground_truth": "江苏人 | 高人一等 | Region | hate [END]"
+  },
+  {
+    "id": 130,
+    "content": "所以你就黑上海😅",
+    "prediction": "上海 | 黑 | Racism | hate [END]",
+    "ground_truth": "上海 | 你就黑上海😅 | Region | hate [END]"
+  },
+  {
+    "id": 5464,
+    "content": "这是平权的一个过程，没办法，平权从来就是个漫长而又痛苦的过程，充满了偏激和矛盾，你看美国黑人平权那么久了还是一个样的偏激，都还有很长的路要走，等真正平权了这个现象也就消失了😎",
+    "prediction": "黑人 | 一个样的偏激 | Racism | hate [END]",
+    "ground_truth": "美国黑人 | 偏激 | Racism | hate [END]"
+  },
+  {
+    "id": 7800,
+    "content": "你是🐷脑么?百姓有钱谁去打厂？",
+    "prediction": "",
+    "ground_truth": "你 | 🐷脑 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 7012,
+    "content": "确实啊 我之前说恶心同性恋 她说我不尊重别人 我都语塞了😭",
+    "prediction": "同性恋 | 我之前说恶心同性恋 | LGBTQ | hate [END]",
+    "ground_truth": "同性恋 | 恶心 | LGBTQ | hate [END]"
+  },
+  {
+    "id": 4678,
+    "content": "上海是哪里的人都黑，除了环太湖不黑😅",
+    "prediction": "上海 | 上海是哪里的人都黑 | Region | hate [END]",
+    "ground_truth": "上海 | 哪里的人都黑 | Region | hate [END]"
+  },
+  {
+    "id": 3789,
+    "content": "确实，都给你🤣兄弟盟向你学习",
+    "prediction": "兄弟盟 | 向你学习 | non-hate | non-hate [END]",
+    "ground_truth": "你 | 兄弟盟向你学习 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 3104,
+    "content": "基佬看见💩洞就兴奋基佬不是在找屎眼就是在治病的路上",
+    "prediction": "基佬 | 基佬看见💩洞就兴奋 | LGBTQ | hate [END]",
+    "ground_truth": "基佬 | 看见💩洞就兴奋 | LGBTQ | hate [SEP] 基佬 | 不是在找屎眼就是在治病的路上 | LGBTQ, others | hate [END]"
+  },
+  {
+    "id": 6964,
+    "content": "同意，哪都比国内好👍️",
+    "prediction": "同意，哪都比国内好👍️",
+    "ground_truth": "国内 | 哪都比国内好👍️ | Region | hate [END]"
+  },
+  {
+    "id": 4616,
+    "content": "你见过几个中国男的娶女黑人，要是有，只能说他脑子有泡，也别回来了，省得到处传染病毒🍉",
+    "prediction": "中国男的 | 嫁女黑人 | Sexism | hate [END]",
+    "ground_truth": "中国男的 | 娶女黑人，要是有，只能说他脑子有泡 | Sexism, Racism | hate [END]"
+  },
+  {
+    "id": 3132,
+    "content": "毕业了跟他去非洲做非洲酋长夫人呗😆",
+    "prediction": "非洲酋长夫人 | 非洲 | Region | hate [END]",
+    "ground_truth": "他 | 毕业了跟他去非洲做非洲酋长夫人呗😆 | Sexism, Racism | hate [END]"
+  },
+  {
+    "id": 2728,
+    "content": "一个人的圈子是很小的，你没接触过，不代表没有。不要试图把这件事，往小了说，这不是一件小事，你这种态度让人十分怀疑，，，，，😓",
+    "prediction": "一个人的圈子是很小的 | 你没接触过，不代表没有 | non-hate | non-hate [END]",
+    "ground_truth": "你这种态度 | 让人十分怀疑 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 592,
+    "content": "你说得国是指大宋吗？😅就是被金干得皇上都没了的那个",
+    "prediction": "大宋 | 被金干得皇上都没了 | Racism | hate [END]",
+    "ground_truth": "大宋 | 被金干得皇上都没了的那个 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 499,
+    "content": "这就是艾情😎",
+    "prediction": "艾情😎 | 😎 | non-hate | non-hate [END]",
+    "ground_truth": "NULL | 艾情 | others | hate [END]"
+  },
+  {
+    "id": 648,
+    "content": "张华考上了北京大学，李萍进了中等技术学校，猩猩被引进了国内高端大学，他们都有光明的未来[拥抱]🐶",
+    "prediction": "北京大学 | 光明的未来 | non-hate | non-hate [END]",
+    "ground_truth": "猩猩 | 被引进了国内高端大学 | Racism | hate [END]"
+  },
+  {
+    "id": 7146,
+    "content": "很多广东人老爱说自己是汉族正统，自己才是纯正正统汉人血统，北方都是胡人血统，胡杂，那北方人自然会觉得，你是正统汉人，来来，让我们看看正统汉人长什么样，然后看了之后才发现🤣，你们说的都对，华夏发源地都在广东好不好😆😆😆",
+    "prediction": "广东人 | 老爱说自己是汉族正统 | non-hate | non-hate [END]",
+    "ground_truth": "广东人 | 爱说自己是汉族正统 | Region | hate [SEP] 北方 | 胡人血统，胡杂 | Region | hate [SEP] 广东 | 华夏发源地 | Region | hate [END]"
+  },
+  {
+    "id": 4171,
+    "content": "江浙沪黑安徽是最凶的🤣🤣",
+    "prediction": "江浙沪黑安徽 | 最凶的 | non-hate | non-hate [END]",
+    "ground_truth": "江浙沪 | 黑安徽是最凶的🤣🤣 | Region | hate [END]"
+  },
+  {
+    "id": 6211,
+    "content": "说真的我在部队黑河南人最多的是河北人🤣",
+    "prediction": "黑河南人 | 最多的是河北人 | Region | hate [END]",
+    "ground_truth": "河北人 | 黑河南人最多 | Region | hate [END]"
+  },
+  {
+    "id": 1124,
+    "content": "我不信，我觉得是和家庭，社交，情感，经历有关系。我没啥异性缘，周围基本都是男的，但我还是喜欢女的，看见男同之类的。。生理上恶心，比如接吻😅😅",
+    "prediction": "女的 | 我还是喜欢 | Sexism | hate [END]",
+    "ground_truth": "男同 | 生理上恶心，比如接吻😅😅 | LGBTQ | hate [END]"
+  },
+  {
+    "id": 4531,
+    "content": "我去，他们自己闻不到吗😅",
+    "prediction": "他们 | 闻不到 | non-hate | non-hate [END]",
+    "ground_truth": "他们 | 自己闻不到吗😅 | others | hate [END]"
+  },
+  {
+    "id": 4148,
+    "content": "广府人黑潮汕呢你咋说😆",
+    "prediction": "广府人 | 黑潮汕呢你咋说😆 | non-hate | non-hate [END]",
+    "ground_truth": "广府人 | 黑潮汕 | Region | hate [END]"
+  },
+  {
+    "id": 5055,
+    "content": "_xDC36__xD83D_zz有空发这个不如去舔你默🐶的嘿d",
+    "prediction": "_xDC36__xD83D_zz | 默🐶的嘿d | non-hate | non-hate [END]",
+    "ground_truth": "默🐶 | 去舔你默🐶的嘿d | Racism | hate [END]"
+  },
+  {
+    "id": 7866,
+    "content": "您破防破的未免也太快了吧🤭🤭，骂完就拉黑你可真够能耐，跟你讲啊，污蔑这块儿你可真还得跟你妈妈学学",
+    "prediction": "您 | 破防破的未免也太快了吧🤭🤭，骂完就拉黑你可真够能耐，跟你讲啊，污蔑这块儿你可真还得跟你妈妈学学 | non-hate | non-hate [END]",
+    "ground_truth": "您 | 破防 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 2469,
+    "content": "对于东北人那段 太真实了😅",
+    "prediction": "东北人 | 太真实了 | non-hate | non-hate [END]",
+    "ground_truth": "东北人 | 那段 太真实了😅 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 7592,
+    "content": "我河南的，把江苏删了把，生活中根本接触不到江苏人啊😅😅😅这个有点假想敌啊，江苏人全国哪哪都瞧不上，还用去黑河南么，顶多就是陕西全和湖北，这俩和河南之间问题很多，归根到底倒不是河南穷，而是利益，利益，利益，因为他们看不起河南，又干不掉河南，有些省份甚至被河南越拉越远，所以他们只能通过低评价，来让河南发展停下来，不就是这个意思么",
+    "prediction": "河南 | 河南人 | non-hate | non-hate [END]",
+    "ground_truth": "江苏人 | 全国哪哪都瞧不上 | Region | hate [SEP] 他们 | 看不起河南，又干不掉河南 | Region | hate [END]"
+  },
+  {
+    "id": 4931,
+    "content": "这只是普遍存在的世俗眼光的问题。 好比刑满释放人员一辈子遭人诟病一样，你说合理吗？不合理！但是在强大的世俗观念里，这就是合情，这就是正确，这就是无可厚非。 为什么黑人被唾弃鄙夷？很简单，因为世俗的观念就是:人种有高低贵贱之分，而正常人只能人往高处走。🙏🙏🙏",
+    "prediction": "黑人 | 被唾弃鄙夷 | Racism | hate [SEP] 世俗观念 | 人种有高低贵贱之分 | Racism | hate [SEP] 正常人 | 只能人往高处走 | Racism | hate [END]",
+    "ground_truth": "黑人 | 被唾弃鄙夷 | Racism | hate [END]"
+  },
+  {
+    "id": 949,
+    "content": "广西风景棒🐮",
+    "prediction": "广西 | 风景棒🐮 | non-hate | non-hate [END]",
+    "ground_truth": "广西 | 风景棒🐮 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 6589,
+    "content": "远离默默默默，抵制串串🤣",
+    "prediction": "远离默默默默 | 抵制串串 | non-hate | non-hate [END]",
+    "ground_truth": "默默默默 | 远离 | Racism | hate [SEP] 串串 | 抵制 | Racism | hate [END]"
+  },
+  {
+    "id": 1123,
+    "content": "不想被一棍子打死你们倒是拿出点态度来啊😓",
+    "prediction": "不想被一棍子打死你们 | 拿出点态度来啊 | non-hate | non-hate [END]",
+    "ground_truth": "你们 | 倒是拿出点态度来啊😓 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 6391,
+    "content": "😅25年没人要，你这",
+    "prediction": "25年没人要 | 你这 | non-hate | non-hate [END]",
+    "ground_truth": "你 | 😅25年没人要 | non-hate | non-hate [END]"
+  },
+  {
+    "id": 3105,
+    "content": "只是觉得为其开脱的龟男实属有点逆天了😆",
+    "prediction": "龟男 | 有点逆天了 | Sexism | hate [END]",
+    "ground_truth": "龟男 | 逆天 | Sexism | hate [END]"
+  },
+  {
+    "id": 7080,
+    "content": "这是阿娜吗？长得像卖瓜的水果摊老板似的。🔪",
+    "prediction": "阿娜 | 长得像卖瓜的水果摊老板似的 | Sexism | hate [END]",
+    "ground_truth": "阿娜 | 长得像卖瓜的水果摊老板似的 | Sexism | hate [END]"
+  },
+  {
+    "id": 3103,
+    "content": "肚子可以饿，下半身不能饿。😓",
+    "prediction": "肚子 | 可以饿 | non-hate | non-hate [END]",
+    "ground_truth": "NULL | 下半身不能饿 | Sexism | hate [END]"
+  },
+  {
+    "id": 2655,
+    "content": "很难不赞同，不过补充一点，杨靖宇将军是河南的，本名马尚德，驻马店的骄傲🍉",
+    "prediction": "杨靖宇将军 | 驻马店的骄傲 | non-hate | non-hate [END]",
+    "ground_truth": "杨靖宇将军 | 河南的，本名马尚德，驻马店的骄傲🍉 | non-hate | non-hate [END]"
+  }
+]
